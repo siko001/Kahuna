@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@600;700&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica";
+  width: 93vw;
+}
+
+h1,
+h3 {
+  font-family: "Poiret One", cursive;
+}
+
+section {
+  width: 70%;
+  margin-left: 200px;
+}
+
+#navbar {
+  overflow: hidden;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  z-index: 499;
+}
+
+#primary_nav {
+  top: 0px;
+  position: fixed;
+  display: block;
+  left: -115px;
+  width: 170px;
+  height: 100%;
+  background: #f56501;
+  z-index: 500;
+}
+
+#primary_nav ul {
+  display: block;
+  margin-top: 18%;
+  padding-left: 5px;
+  list-style: none;
+}
+
+#primary_nav ul li a {
+  display: block;
+  padding: 0 0 25px 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+#primary_nav ul li a:hover,
+#primary_nav ul li a:active {
+  color: #434244;
+  padding-left: 17px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#mobile_nav {
+  font-size: 36px;
+  position: relative;
+  display: inline-block;
+  top: 10px;
+  left: 127px;
+  color: #000;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+#mobile_nav:hover {
+  color: #fff;
+}
+
+#logo {
+  background-color: #f56501;
+  height: 70px;
+  width: 106.3%;
+  overflow: hidden;
+}
+
+#Logo {
+  font-family: "Signika", sans-serif;
+  color: #fff;
+  position: relative;
+  left: 170px;
+}

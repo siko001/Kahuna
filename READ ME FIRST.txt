@@ -1,0 +1,66 @@
+Hi Keith,
+
+I hope all is well!
+I've built this project with all the knowledge I have gained in this course.
+I've tried to follow the MVC pattern as much as possible(I'm not sure how I did since most of my html files end in .php :) so I will work on that ).
+I didn't use an autoloader
+But I'm thrilled with the result for the time being. 
+I will start reading the book and preparing for the exam, as soon as I've uploaded this project to the campus (which by the time you're reading this ingI would have already started). Once I have taken the exam and hopefully passed and if I'm still in the time frame of the 6months since the end of the course, I would like to keep on working a bit more on this project and add some extra features that I left out (which I marked with comments in the code)
+Naturally, I went for the extra points and did the Facebook login and created the API.
+
+front-end wise some things need a bit more work but I'm happy with the result of this course!
+ERD of the project is also in this folder (kept it as simple as possible for the sake of speed)
+
+
+May I please present to you my final project for this course!
+
+
+-Please start by running the SQL code you have in this folder to create DB and tables and insert the products I have prepared for this project.
+
+-please go in Views folder and open up index.php or else "http://localhost/Kahuna/Views/index" in URL (no need for.php as there is an htaccess file)
+
+Here is the landing page of kahuna the user is asked to sign in if he wishes, the user can sign in with Facebook or else sign in with his registered credentials.
+if the user is new to Kahuna, he can sign up by clicking the signup button and after a little magic done with the help of javascript user now has a registration form in front of him.
+
+-there is validation done both front-end and back-end-wise. all inputs have an input filter
+Both on the registration form and sign-in form.
+
+-once all validation has passed and the account it created you are taken back to the user login.
+
+-Please log in with the email and password you entered in the registration. (Facebook login after please)
+
+-User is taken to a simple Dashboard welcoming them. also inviting them to register products Through the products Page
+
+-skipping the product registration, for now, the user has the Contact us form
+fields for name email and number as set to read-only and are generated from the user information that was input during registration
+there is the filtering of the text field, also the fields have the htmlspecialCharacther() function to display the information
+
+upon submitting user is taken to a thank you for contacting us page(for the sake of finishing this project faster I didn't process the form)
+
+
+-settings will be something I will add later! I will give the user ability to change profile settings. also, users can be assigned  to admin, regular or premium users (but that's later on)
+
+
+-logout, of course, will log you out and if you try entering the URL of the project dashboard after logging out it will redirect you to the index page.
+if the user closes the tab by mistake he can continue without having to log in again as everything is saved on the session superglobal. did it this way again for the sake of speed(but later will be done if the user ticks keep me signed in).
+
+
+-going on to the product page of kahuna
+the image values and serial numbers are hard-coded (only for the product page) the link and the individual product are all generated through OOP!
+the user can see all appliances available for registration. 
+user can click on the hotlink to see more information and price about all the products, or they can press on the product individually and is taken to a singular product page. 
+To make things fun I've put an easter egg (which you will see if you press on the product price List) you can also add this product to your collection if you manage to find out how(SUPER EASY)
+
+-The USER can type the pre-entered serial numbers from 110-119 to register his brand-new product.
+if registration was successful, the user is taken back to the dashboard. telling him that he has successfully registered his product, and now the user can see all his registered products.
+if the user tries to register the same product he is taken to an error page(for the sake of speed).
+
+and that's it :)
+
+repeating all this with a new account of course is possible.
+
+
+you can also log in with Facebook and the User is welcomed by saying Facebook user.
+
+Please read the FACEBOOK read me for more detail.
+

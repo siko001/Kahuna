@@ -1,0 +1,15 @@
+Facebook log-in can be done if the User is new to kahuna or even if the user already has an account with kahuna.
+
+if the user registers first to Kahuna and after he wants to log in via Facebook it's done without problems,
+as long as the email used for Facebook is the same email used to register to kahuna.
+if it's not the same, a new profile is created (to kahuna), and any registered products on the registered account (with Kahuna) won't show on the Facebook Log-in(This is a problem I will fix later after doing the exam as I didn't want to lose any time with Unnecessary things)
+basically, it will treat the accounts as separate if the emails aren't the same :)
+
+
+user id in the DB will be the same as the Facebook UserID (i can always adjust this to be like a normal registered user and auto increments)
+also Phone number I cannot get the information from Facebook due to privacy
+and password the same so I created a hard-coded password for Facebook users.
+
+you can log in through the kahuna portal with the Facebook email (once you have logged in with Facebook) and the password "SorryTookAShortCut:)"
+
+all inputs have input_filters

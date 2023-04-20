@@ -1,0 +1,26 @@
+Where you see {} please remove contents and braces
+
+the endpoint for the API and the see all available appliances  (GET REQUEST IN BROWSER URL)
+http://localhost/kahuna/API/appliances
+
+the endpoint shows you details about the product (GET REQUEST IN BROWSER URL)
+http://localhost/kahuna/API/appliances/{product serial number}
+
+the endpoint switches the product-on (GET REQUEST IN BROWSER URL)
+http://localhost/kahuna/API/appliances/{product serial number}/switch-on
+
+the endpoint switches the product off (GET REQUEST IN BROWSER URL)
+http://localhost/kahuna/API/appliances/{product serial number}/switch-off
+
+the endpoint sets a timer for the product (GET REQUEST IN BROWSER URL)
+http://localhost/kahuna/API/appliances/{product serial number}/set-timer/{number in minutes}
+
+
+
+Also via postman
+
+appliances can be CREATED via "POST"
+			DELETED via "DELETE"
+			UPDATED via "PUT" 
+
+simulation of "GET" done in the browser for better UI/UX

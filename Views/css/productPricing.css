@@ -1,0 +1,22 @@
+body {
+  position: relative;
+}
+
+table {
+  width: 800px;
+  padding-top: 100px;
+  position: absolute;
+  left: 20%;
+  text-align: center;
+}
+
+th {
+  position: relative;
+  left: -30px;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+  padding-right: 70px;
+}

@@ -1,0 +1,15 @@
+<img src="https://i.postimg.cc/Dy5Lfhtb/coffeemachine.png">
+<img src="https://i.postimg.cc/nhCjHD46/dishwasher.png"> 
+<img src="https://i.postimg.cc/3NY07f1B/dragonballs.png">
+<img src="https://i.postimg.cc/xTsNDRzv/fridge.png"> 
+<img src="https://i.postimg.cc/fL40qR01/hob.png" >
+<img src="https://i.postimg.cc/SNQYv5JQ/oven.png" >
+<img src="https://i.postimg.cc/XYz5F8Nj/tumble.png">
+<img src="https://i.postimg.cc/3xRpd6Tf/tv.png" >
+<img src="https://i.postimg.cc/3w0vZvWg/vaccum.png">
+<img src="https://i.postimg.cc/5ygYt5kM/washingmachine.jpg" >
+<img src="https://i.postimg.cc/ryNtgcyY/waterheater.png" >
+
+
+BACK UP OF THE HOSTED IMAGES FOR THE DB
+NOTHING TO SEE HERE CAN BE DELETED IF YOU WANT! :)
